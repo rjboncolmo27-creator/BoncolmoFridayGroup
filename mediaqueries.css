@@ -1,0 +1,49 @@
+/* Tablets */
+@media screen and (max-width: 1024px) {
+  #hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-img img {
+    margin-top: 2rem;
+    width: 280px;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+
+  #hero {
+    padding: 2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .skills-container,
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-links {
+    font-size: 0.9rem;
+  }
+}
